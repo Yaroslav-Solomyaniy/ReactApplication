@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  color: #3d4e61;
+  max-width: 2000px;
+  min-width: 1000px;
+}

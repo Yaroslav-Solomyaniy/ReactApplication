@@ -1,0 +1,13 @@
+.Amenities__title {
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+.Amenities__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Amenities__inner__text {
+    min-width: 175px;
+    font-size: 16px;
+    margin-bottom: 13px;
+}

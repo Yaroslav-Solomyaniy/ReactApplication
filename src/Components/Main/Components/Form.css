@@ -1,0 +1,35 @@
+.form__booking {
+    border: 1px solid #e1e7ed;
+}
+.form__title {
+    font-weight: 400;
+    margin: 30px 0 0 30px;
+    line-height: 48px;
+}
+.form__input {
+    width: 270px;
+    height: 50px;
+    border: 1px solid #e1e7ed;
+    padding-left: 10px;
+
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.date__input {
+    margin: 39px 30px 16px 30px;
+}
+.number__input {
+    margin: 16px 30px 0 30px;
+}
+.form__button {
+    display: block;
+    width: 270px;
+    height: 50px;
+
+    margin: 24px auto 38px auto;
+
+    color: #ffffff;
+    background: #fd5c63;
+    border-radius: 4px;
+    border: none;
+}

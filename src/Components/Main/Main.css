@@ -1,0 +1,30 @@
+/* Main */
+main {
+    width: 100%;
+}
+/* Main__inner */
+.main__inner {
+    width: 901px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin:39px auto 0 auto;
+}
+/* main__left */
+.main__left {
+    width: 482px;
+    margin-right: 89px;
+}
+/* block reviews */
+.block__reviews {
+    margin-top: 55px;
+}
+.reviews__title {
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 34px;
+}
+/* Main__right*/
+.main__right {
+    width: 330px;
+    height: 319px;
+}
