@@ -15,10 +15,17 @@
     line-height: 16px;
     margin: 11px 0;
     font-weight: 500;
+   
 }
 .author__text {
     margin-top: 7px;
     margin-bottom: 35px;
+}
+.text {
+    color: #3d4e61;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
 }
 .links__host {
     display: inline-block;
@@ -27,9 +34,18 @@
     color: #118488;
     box-sizing: border-box;
     border-radius: 4px;
+    &:hover {
+        background: #118488;
+        color: white;
+        transition: background 1s, color 0.5s;
+    }
 }
-.links__host:hover {
-    background: #118488;
-    color: white;
-    transition: background 1s, color 0.5s;
-}
+.links {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d4e61;
+    text-decoration: none;
+    &:active,:focus,:hover{
+        text-decoration: underline;
+    }
+  }

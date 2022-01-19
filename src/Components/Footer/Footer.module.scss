@@ -1,5 +1,4 @@
-/*== Footer ==*/
-footer {
+.footer {
     margin-top: 50px;
     width: 100%;
     display: flex;
@@ -19,16 +18,28 @@ footer {
     flex-wrap: nowrap;
     flex-direction: column;
 }
-.footer__link {
+.footer__link
+{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 20px;
+    .links
+    {
+        margin-top: 9px;
+        font-weight: 400;
+            &:last-child
+            {
+                margin-bottom: 43px;
+            }
+    }
 }
-.footer__link > .links{
-    margin-top: 9px;
-    font-weight: 400;
-}
-.footer__link > .links:last-child{
-    margin-bottom: 43px;
+.links {
+    font-size: 16px;
+    color: #3d4e61;
+    text-decoration: none;
+    &:active, :focus, :hover
+    {
+      text-decoration: underline;
+    }
 }

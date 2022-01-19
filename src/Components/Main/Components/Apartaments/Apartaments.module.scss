@@ -14,13 +14,14 @@
     color: #3d4e61;
     margin-right: 11px;
     font-weight: 700;
-}
-.desc__item:last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 .text {
     color: #3d4e61;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 19px;
     font-weight: 400;
     margin-top: 30px;
 }
@@ -29,3 +30,12 @@
     margin-top: 20px;
     margin-bottom: 44px;
 }
+.links {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d4e61;
+    text-decoration: none;
+    &:active,:focus,:hover{
+        text-decoration: underline;
+    }
+  }

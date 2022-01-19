@@ -1,9 +1,9 @@
 import React from "react";
-import "./Reviews__inner.css";
+import style from "./Reviews__inner.module.scss";
 import Reviews__item from "./Reviews__item";
 function Reviews__inner(props) {
   return (
-    <div className="reviews__inner">
+    <div className={style.reviews__inner}>
       <Reviews__item
         name="Ivan"
         date="September 2016"

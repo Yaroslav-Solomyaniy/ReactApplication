@@ -1,10 +1,10 @@
 import React from 'react'
-import "./Photo.css"
+import style from './Photo.module.scss'
 import photograpia from "../../img/photo.png"
 function Photo() {
     return (
-        <div className="photo__page">
-            <img className="photo" src={photograpia} alt="Images"/>
+        <div>
+            <img className={style.photo} src={photograpia} alt="Images"/>
         </div>
     )
 }

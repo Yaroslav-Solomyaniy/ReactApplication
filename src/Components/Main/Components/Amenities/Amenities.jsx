@@ -1,16 +1,16 @@
 import React from "react";
-import "./Amenities.css"
+import style from "./Amenities.module.scss"
 function Amenities() {
   return (
-    <div className="Amenities">
-      <h3 className="Amenities__title">Amenities</h3>
-      <div className="Amenities__inner">
-        <div className="Amenities__inner__text">Elevator</div>
-        <div className="Amenities__inner__text">Hair dryer</div>
-        <div className="Amenities__inner__text">Washer</div>
-        <div className="Amenities__inner__text">Kitchen</div>
+    <div className={style.Amenities}>
+      <h3 className={style.Amenities__title}>Amenities</h3>
+      <div className={style.Amenities__inner}>
+        <div className={style.Amenities__inner__text}>Elevator</div>
+        <div className={style.Amenities__inner__text}>Hair dryer</div>
+        <div className={style.Amenities__inner__text}>Washer</div>
+        <div className={style.Amenities__inner__text}>Kitchen</div>
       </div>
-      <a className="links" href="#">
+      <a className={style.links} href="#">
         Show All Amenities
       </a>
     </div>

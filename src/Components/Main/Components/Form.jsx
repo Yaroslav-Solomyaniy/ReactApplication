@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "./Form.css";
+import style from "./Form.module.scss";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 function Form() {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <form className="form__booking" action="POST">
-      <h2 className="form__title">25$ per night</h2>
+    <form className={style.form__booking} action="POST">
+      <h2 className={style.form__title}>25$ per night</h2>
       <DatePicker
-        className="form__input date__input"
+        className={`${style.form__input} ${style.date__input}`}
         selected={startDate}
         onChange={(date) => setStartDate(date)}
         locale="pt-BR"
@@ -23,10 +23,10 @@ function Form() {
         placeholder="Guest"
         type="number"
         name="number_form"
-        className="form__input number__input"
+        className={`${style.form__input} ${style.number__input}`}
       />
-      <div className="buttons">
-        <button type="submit" className="form__button">
+      <div>
+        <button type="submit" className={style.form__button}>
           Book
         </button>
       </div>

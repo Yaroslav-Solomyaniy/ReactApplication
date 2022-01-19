@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Author.css"
+import style from "./Author.module.scss";
 function Author() {
     return (
-            <div className="block__author">
-                <h2 className="title_author">Hosted by Jane</h2>
-                <h3 className="subtitle__author__city">Budapest, Hungary</h3>
-                <div className="author__text text">
+            <div className={style.block__author}>
+                <h2 className={style.title_author}>Hosted by Jane</h2>
+                <h3 className={style.subtitle__author__city}>Budapest, Hungary</h3>
+                <div className={`${style.author__text} ${style.text}`}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et magna aliqua.
                 </div>
-                <a className="links links__host" href="tel:+38093217239">Contact host</a>
+                <a className={`${style.links__host} ${style.links}`} href="tel:+38093217239">Contact host</a>
             </div>
     )
 }
